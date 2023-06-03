@@ -1,0 +1,25 @@
+.navigation-button {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #2b4680;
+    border-radius: 5px;
+    background: linear-gradient(69.5deg, rgb(108, 133, 176) 2.7%, rgb(213, 196, 87) 97.2%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    outline: none;
+}
+
+.navigation-button + .navigation-button {
+    margin-left: 10px;
+}
+
+.navigation-button:hover {
+    cursor: pointer;
+}
+
+.navigation-button:disabled {
+    color: #9ca1ab;
+    cursor: not-allowed;
+    background: #d1cfcf;
+}
